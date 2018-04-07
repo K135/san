@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="uh.com" resolutions="1x" timestamp="1523132197230">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="uh.com" resolutions="1x" timestamp="1523132814530">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="untitled-2.css" crc="166583842" ref="untitled-2"/>
@@ -18,7 +18,7 @@
     <file name="untitled-10.css" crc="3779538549" ref="untitled-10"/>
     <file name="untitled-21.css" crc="4252045001" ref="untitled-21"/>
     <file name="untitled-5.css" crc="4070693471" ref="untitled-5"/>
-    <file name="untitled-24.css" crc="529536461" ref="untitled-24"/>
+    <file name="untitled-24.css" crc="464292126" ref="untitled-24"/>
     <file name="untitled-16.css" crc="72294711" ref="untitled-16"/>
     <file name="untitled-6.css" crc="517621618" ref="untitled-6"/>
     <file name="untitled-20.css" crc="4182705783" ref="untitled-20"/>
@@ -66,6 +66,7 @@
       <caption webpage="untitled-15" alt=""/>
     </file>
     <file name="spiffyclutteredkitfox.gif" crc="144952111" ref="untitled-15:untitled-24">
+      <caption webpage="untitled-24" alt=""/>
       <caption webpage="untitled-15" alt=""/>
       <caption webpage="untitled-15" alt=""/>
     </file>
@@ -200,5 +201,5 @@
   <file name="untitled-21.html" crc="3965088612" seo="true" mt="1523106961132" redirect="true"/>
   <file name="untitled-22.html" crc="4284200242" seo="true" mt="1523106987016" redirect="true"/>
   <file name="untitled-23.html" crc="4197682042" seo="true" mt="1523107069479" redirect="true"/>
-  <file name="untitled-24.html" crc="4092172785" seo="true" mt="1523126867079" redirect="true"/>
+  <file name="untitled-24.html" crc="3953479224" seo="true" mt="1523132785498" redirect="true"/>
 </manifest>
