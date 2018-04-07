@@ -3,7 +3,7 @@
  <head>
 
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-  <meta name="generator" content="2017.0.3.363"/>
+  <meta name="generator" content="2018.0.0.379"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   
   <script type="text/javascript">
@@ -11,25 +11,28 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "untitled-4.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "jquery.musepolyfill.bgsize.js", "untitled-4.css"], "outOfDate":[]};
 </script>
   
   <title>Untitled 4</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=443350757"/>
-  <link rel="stylesheet" type="text/css" href="css/untitled-4.css?crc=384555803" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
+  <link rel="stylesheet" type="text/css" href="css/untitled-4.css?crc=4018156848" id="pagesheet"/>
    </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pu1142-7"><!-- column -->
-    <img class="colelem" id="u1142-7" alt="HAHA I KNOW YOUR LYING " src="images/u1142-7.png?crc=4029574634" data-image-width="301"/><!-- rasterized frame -->
-    <div class="clearfix colelem" id="u1146-4"><!-- content -->
-     <p><span id="u1146">ACHA CHOD HAD TO ASK YOU SOMETHING</span></p>
+  <div class="clearfix borderbox" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <div class="clearfix colelem" id="u182-8" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+     <p id="u182-3"><span id="u182">Achaaa iss bar apka favourite billy ka button banaya hu </span><span id="u182-2"></span></p>
+     <p id="u182-6"><span id="u182-4">i know you cant resist clicking it.</span></p>
     </div>
+    <a class="nonblock nontext museBGSize rounded-corners colelem" id="u185" href="untitled-5.html"><!-- simple frame --></a>
+    <div class="verticalspacer" data-offset-top="438" data-content-above-spacer="437" data-content-below-spacer="62" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
-   <a class="nonblock nontext Button rounded-corners clearfix grpelem" id="buttonu1170" href="untitled-2.html"><!-- container box --><div class="clearfix grpelem" id="u1171-4"><!-- content --><p><span id="u1171">HAAN Poocho</span></p></div></a>
-   <div class="verticalspacer" data-offset-top="487" data-content-above-spacer="487" data-content-below-spacer="82"></div>
+  </div>
+  <div class="preload_images">
+   <img class="preload" src="images/source.gif?crc=4050421868" alt=""/>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -42,10 +45,11 @@ var suppressMissingFileError = false
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
@@ -53,6 +57,6 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 
 </script>
   <!-- RequireJS script -->
-  <script src="scripts/require.js?crc=85721165" type="text/javascript" async data-main="scripts/museconfig.js?crc=436936948" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  <script src="scripts/require.js?crc=4157109226" type="text/javascript" async data-main="scripts/museconfig.js?crc=380897831" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
    </body>
 </html>
