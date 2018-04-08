@@ -360,6 +360,9 @@
       <image:loc>http://uh.com/images/shaziya%2020180404_224128.jpg</image:loc>
     </image:image>
     <image:image>
+      <image:loc>http://uh.com/images/valentines-heart.png</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://uh.com/images/918105419945_status_6cdaf7cda6fbfb187fe29f8abf49a3a3-crop-u5707.jpg</image:loc>
     </image:image>
     <image:image>
@@ -466,6 +469,12 @@
     </image:image>
     <image:image>
       <image:loc>http://uh.com/images/img-20180329-wa0014.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://uh.com/images/valentines-heart189x189.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://uh.com/images/valentines-heart173x173.png</image:loc>
     </image:image>
   </url>
 </urlset>
